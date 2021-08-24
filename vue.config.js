@@ -1,3 +1,6 @@
 module.exports = {
-  publicPath: '/WorkShop-vuecli-practice/dist/',
+  // publicPath: '/dist/',
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/WorkShop-vuecli-practice/'
+    : '/',
 };
