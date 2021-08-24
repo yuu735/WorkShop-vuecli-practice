@@ -1,6 +1,3 @@
 module.exports = {
-  publicPath: '/dist/',
-  build: {
-    assetsPublicPath: '/WorkShop-vuecli-practice/dist/',
-  },
+  publicPath: '/WorkShop-vuecli-practice/dist/',
 };
